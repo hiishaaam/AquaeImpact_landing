@@ -21,8 +21,15 @@ const NavbarSubsection = () => {
             className="w-full h-[100px] flex items-center justify-between px-[30px] overflow-hidden"
         >
 
-            <div className="[font-family:'Russo_One-Regular',Helvetica] font-normal text-[#47bdaa] text-[28px] tracking-[0] leading-[42px]">
-                AQUAIMPACT
+            <div className="flex items-center gap-3">
+                <img 
+                    src="/AQUAE.Impact-LOGO-REC-removebg-preview (2).svg" 
+                    alt="AQUAE Impact Logo" 
+                    className="w-12 h-12"
+                />
+                <div className="[font-family:'Russo_One-Regular',Helvetica] font-normal text-[#47bdaa] text-[28px] tracking-[0] leading-[42px]">
+                    AQUAIMPACT
+                </div>
             </div>
 
             <div className="flex items-center gap-[49px]">

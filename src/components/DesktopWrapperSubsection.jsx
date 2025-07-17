@@ -39,7 +39,14 @@ export const DesktopWrapperSubsection = () => {
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 items-start">
         {/* Logo/Brand */}
         <div className="flex flex-col items-center md:items-start">
-          <span className="text-[#47bdaa] text-4xl font-extrabold tracking-tight font-sans mb-4">AQUAE IMPACT</span>
+          <div className="flex items-center gap-3 mb-4">
+            <img 
+              src="/AQUAE.Impact-LOGO-REC-removebg-preview (2).svg" 
+              alt="AQUAE Impact Logo" 
+              className="w-12 h-12"
+            />
+            <span className="text-[#47bdaa] text-4xl font-extrabold tracking-tight font-sans">AQUAE IMPACT</span>
+          </div>
         </div>
         {/* Links */}
         <div className="flex flex-col items-center">
